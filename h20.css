@@ -1,0 +1,73 @@
+html {
+background-image: url('./bluewave.svg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+body{
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    
+    font-size: 70px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#fortune{
+    color: #09090977;
+    font-size: 24px;
+    text-align: center;
+    font-size: 80px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+    color: #ffffff;
+    background-image: -webkit-linear-gradient(0deg, #ffffff 0%, #38c29f 49%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+  
+
+  
+
+}
+
+#buttonContainer{
+    width: fit-content;
+    margin: auto;
+    
+}
+
+#fortuneButton{
+    padding: 10px;
+    font-size: 80px;
+    background: rgb(195, 174, 174);
+    border: 5px solid #f9f7f8;
+    border-radius: 5px;
+    color: #0c100e;
+    cursor: pointer;
+    height: 300px;
+    width: 300px;
+    box-shadow:
+  4.5px 4.5px 3.6px rgba(0, 0, 0, 0.07),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.1),
+  30.1px 30.1px 24.1px rgba(0, 0, 0, 0.13),
+  100px 100px 80px rgba(0, 0, 0, 0.2)
+;
+
+
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.64);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+
+}
